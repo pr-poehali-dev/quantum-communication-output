@@ -2,8 +2,8 @@ import { useEffect, useRef, useState } from "react"
 
 const services = [
   {
-    title: "Жилые интерьеры",
-    description: "Полное преображение дома с учётом вашего образа жизни. От отдельных комнат до целых резиденций.",
+    title: "Дизайн интерьера",
+    description: "Полный цикл: от концепции и планировки до авторского надзора за реализацией. Квартиры, дома, резиденции.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -15,8 +15,8 @@ const services = [
     ),
   },
   {
-    title: "Планировка",
-    description: "Продуманные решения, создающие естественный поток и функциональные зоны для жизни, работы и отдыха.",
+    title: "Планировочные решения",
+    description: "Эргономика пространства, которая работает на вас: правильные зоны, естественные маршруты, уют без компромиссов.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -28,8 +28,8 @@ const services = [
     ),
   },
   {
-    title: "Подбор материалов",
-    description: "Натуральные материалы и авторские предметы ручной работы, которые красиво стареют и рассказывают историю.",
+    title: "Подбор материалов и мебели",
+    description: "Дерево, камень, лён, керамика — только натуральные материалы, которые становятся красивее с годами.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -41,8 +41,8 @@ const services = [
     ),
   },
   {
-    title: "Светодизайн",
-    description: "Многоуровневое освещение, меняющееся в течение дня, создающее атмосферу и поддерживающее благополучие.",
+    title: "Световой дизайн",
+    description: "Сценарии освещения под каждый момент дня — от утреннего ритуала до вечернего покоя.",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1}>
         <path
@@ -93,7 +93,7 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Что мы делаем
+            Как мы можем помочь
           </h2>
         </div>
 

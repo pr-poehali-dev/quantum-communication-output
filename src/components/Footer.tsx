@@ -5,9 +5,9 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Wabi</p>
+            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">Wabi Studio</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Японский минимализм в сочетании со скандинавским теплом.
+              Дизайн интерьеров в стиле Japandi. Москва и Санкт-Петербург.
             </p>
           </div>
 
@@ -65,7 +65,7 @@ export function Footer() {
           <p className="text-xs text-muted-foreground">
             &copy; {new Date().getFullYear()} Wabi Studio. Все права защищены.
           </p>
-          <p className="text-xs text-muted-foreground">Создано с намерением</p>
+          <p className="text-xs text-muted-foreground">Каждый интерьер создаётся с намерением</p>
         </div>
       </div>
     </footer>
